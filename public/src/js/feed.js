@@ -10,6 +10,8 @@ function closeCreatePostModal() {
   createPostArea.style.display = 'none';
 }
 
+let taco = 1
+
 shareImageButton.addEventListener('click', openCreatePostModal);
 
 closeCreatePostModalButton.addEventListener('click', closeCreatePostModal);
